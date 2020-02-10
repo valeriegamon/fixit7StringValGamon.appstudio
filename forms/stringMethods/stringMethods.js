@@ -49,4 +49,3 @@ alert(findString);
 
 let findString2 = secondQuote.replace("What separates the talented individual from the successful one is a lot of hard work.","")
 alert(findString2);
-
