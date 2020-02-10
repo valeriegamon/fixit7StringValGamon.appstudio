@@ -43,5 +43,10 @@ alert('The character at location 3 is ' + positionThree.charAt(index));
 //from the string secondQuote is holding and put it in the findString variable. Output the string in secondQuote.
 //Note: Don't use any hard-coding (that is writing the string directly in findString).
 
+let findString = secondQuote.split('. ');
+var remove = findString.splice(1,1);
+alert(findString);
 
+let findString2 = secondQuote.replace("What separates the talented individual from the successful one is a lot of hard work.","")
+alert(findString2);
 
